@@ -10,6 +10,7 @@ a.link.myAnimation {
     margin: 0 auto;
     animation: link 1.5s ease infinite;
     border: 3px solid;
+    text-decoration: underline;
 }
 
 @keyframes link {
