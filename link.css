@@ -11,6 +11,7 @@ a.link.myAnimation {
     animation: link 1.5s ease infinite;
     border: 3px solid #ee2737;
     text-decoration: underline;
+    animation: 0.15s ease;
 }
 a.link.myAnimation:hover {
     color: white;
