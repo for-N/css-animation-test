@@ -9,8 +9,13 @@ a.link.myAnimation {
     font-weight: bold;
     margin: 0 auto;
     animation: link 1.5s ease infinite;
-    border: 3px solid;
+    border: 3px solid #ee2737;
     text-decoration: underline;
+}
+a.link.myAnimation:hover {
+    color: white;
+    background: #ee2737;
+    text-decoration: none;
 }
 
 @keyframes link {
