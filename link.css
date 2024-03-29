@@ -6,7 +6,6 @@ a.link.myAnimation {
     padding: 7px 15px;
     background: white;
     color: #ee2737;
-    text-decoration: none;
     font-weight: bold;
     margin: 0 auto;
     animation: link 1.5s ease infinite;
