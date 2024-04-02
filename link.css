@@ -38,8 +38,8 @@ a.link.myAnimation:hover {
   }
 }
 
-.imgs {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.imgWrapper {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
 }
