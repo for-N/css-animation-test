@@ -45,7 +45,7 @@ a.link.myAnimation:hover {
   flex-direction: column;
 }
 
-h1, h2 {
+.myContent h1, .myContent h2 {
     border-left: 5px solid #e31010;
     padding-left: 10px;
     color: #000;
