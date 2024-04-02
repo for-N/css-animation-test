@@ -43,3 +43,14 @@ a.link.myAnimation:hover {
   display: flex;
   flex-direction: column;
 }
+
+h2 {
+    border-left: 5px solid #e31010;
+    padding-left: 10px;
+    color: #000;
+    margin: 25px 0;
+}
+
+.myContent {
+    margin-bottom: 100px;
+}
