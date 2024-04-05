@@ -89,3 +89,6 @@ a.link.myAnimation:hover {
     font-size: 1.1em;
     font-weight: bold;
 }
+.caption {
+    font-weight: bold;
+}
