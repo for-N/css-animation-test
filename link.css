@@ -62,7 +62,7 @@ a.link.myAnimation:hover {
 
 .work {
     border-bottom: 1px solid gray;
-    padding: 10px;
+    padding: 10px 0;
     display: flex;
 }
 .work a {
@@ -73,7 +73,7 @@ a.link.myAnimation:hover {
     flex: 3;
 }
 .workRight {
-    padding: 40px 0 0 30px;
+    padding: 0px 0 0 30px;
     flex: 7;
 }
 .rank {
