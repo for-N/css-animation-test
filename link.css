@@ -58,3 +58,21 @@ a.link.myAnimation:hover {
 .myContent img {
     min-width: 100%;
 }
+
+
+.work {
+    border-bottom: 1px solid gray;
+    padding: 10px;
+    display: flex;
+}
+.workLeft {
+    flex: 3;
+}
+.workRight {
+    padding: 40px 0 0 30px;
+    flex: 7;
+}
+.rank {
+    font-size: 27px;
+    font-weight: bold;
+}
