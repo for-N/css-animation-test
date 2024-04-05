@@ -70,12 +70,15 @@ a.link.myAnimation:hover {
     color: rgb(0, 95, 192);
     text-decoration: none;
 }
+.workLeft, .workRight {
+    box-sizing: border-box;
+}
 .workLeft {
     flex-basis: 20%;
 }
 .workRight {
-    padding: 0px 0 0 30px;
-    flex-basis: 73%;
+    padding-left: 10px;
+    flex-basis: 80%;
 }
 .rank {
     font-size: 1.3em;
