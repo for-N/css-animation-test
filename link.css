@@ -64,6 +64,7 @@ a.link.myAnimation:hover {
     border-bottom: 1px solid gray;
     padding: 10px 0;
     display: flex;
+    flex-wrap: wrap;
 }
 .work a {
     color: rgb(0, 95, 192);
@@ -79,6 +80,7 @@ a.link.myAnimation:hover {
 .rank {
     font-size: 1.3em;
     font-weight: bold;
+    flex-basis: 100%;
 }
 .workTitle {
     font-size: 1.1em;
