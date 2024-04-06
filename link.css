@@ -94,5 +94,7 @@ a.link.myAnimation:hover {
     font-weight: bold;
 }
 .enlarge {
-    text-decoration: underline #e31010 wavy;
+    text-decoration-line: underline;
+    text-decoration-color: #e31010;
+    text-decoration-style: wavy;
 }
