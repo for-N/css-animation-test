@@ -98,3 +98,10 @@ a.link.myAnimation:hover {
     text-decoration-color: #e31010;
     text-decoration-style: wavy;
 }
+.prBlock {
+    background: #ffe1e7;
+    padding-bottom: 5px;
+}
+.prBlock .caption {
+    margin: 0 10px;
+}
