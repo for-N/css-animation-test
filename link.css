@@ -112,3 +112,6 @@ a.defaultLink {
     text-decoration: underline;
     color: rgb(0, 95, 192);
 }
+.booksBar a {
+    font-size: 1.1em;
+}
