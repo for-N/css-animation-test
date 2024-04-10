@@ -105,3 +105,7 @@ a.link.myAnimation:hover {
 .prBlock .caption {
     margin: 0 10px;
 }
+a.defaultLink {
+    text-decoration: underline;
+    color: rgb(0, 95, 192);
+}
