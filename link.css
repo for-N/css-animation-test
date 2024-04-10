@@ -66,6 +66,9 @@ a.link.myAnimation:hover {
     display: flex;
     flex-wrap: wrap;
 }
+.work:has(+.booksBar) {
+    border-bottom: none;
+}
 .work a {
     color: rgb(0, 95, 192);
     text-decoration: none;
