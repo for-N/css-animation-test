@@ -101,6 +101,9 @@ a.link.myAnimation:hover {
     text-decoration-color: #e31010;
     text-decoration-style: wavy;
 }
+.largeFont {
+    font-size: 1.2em;
+}
 .prBlock {
     background: #ffeff2;
     padding-bottom: 5px;
@@ -114,4 +117,7 @@ a.defaultLink {
 }
 .booksBar a {
     font-size: 1.1em;
+}
+.rankingPage {
+    text-align: center;
 }
