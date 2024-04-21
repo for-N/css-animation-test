@@ -1,0 +1,123 @@
+.myLinkWrapper {
+  display: flex;
+  margin: 40px 0;
+}
+.summary {
+  margin: 30px 0;
+}
+a.link.myAnimation {
+    display: inline-block;
+    padding: 7px 15px;
+    background: white;
+    color: #ee2737;
+    font-weight: bold;
+    margin: 0 auto;
+    animation: link 1.5s ease infinite;
+    border: 3px solid #ee2737;
+    text-decoration: underline;
+    transition: 0.15s ease;
+    font-size: 1.2em;
+}
+a.link.myAnimation:hover {
+    color: white;
+    background: #ee2737;
+    text-decoration: none;
+}
+
+@keyframes link {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(1.05);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.imgWrapper {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+#article-contents h1, #article-contents h2 {
+    border-left: 5px solid #e31010;
+    padding-left: 10px;
+    color: #000;
+    margin: 25px 0;
+}
+
+.myContent {
+    margin-bottom: 250px;
+}
+.myContent img {
+    min-width: 100%;
+}
+
+
+.work {
+    border-bottom: 1px solid gray;
+    padding: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.work:has(+.booksBar) {
+    border-bottom: none;
+}
+.work a {
+    color: rgb(0, 95, 192);
+    text-decoration: none;
+}
+.workLeft, .workRight {
+    box-sizing: border-box;
+}
+.workLeft {
+    flex-basis: 30%;
+}
+.workRight {
+    padding-left: 10px;
+    flex-basis: 70%;
+}
+.rank {
+    font-size: 1.3em;
+    font-weight: bold;
+    flex-basis: 100%;
+}
+.workTitle {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+.caption {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+.enlarge {
+    text-decoration-line: underline;
+    text-decoration-color: #e31010;
+    text-decoration-style: wavy;
+}
+.largeFont {
+    font-size: 1.2em;
+}
+.prBlock {
+    background: #ffeff2;
+    padding-bottom: 5px;
+}
+.prBlock .caption {
+    margin: 0 10px;
+}
+a.defaultLink {
+    text-decoration: underline;
+    color: rgb(0, 95, 192);
+}
+.booksBar a {
+    font-size: 1.1em;
+}
+.rankingPage {
+    text-align: center;
+}
