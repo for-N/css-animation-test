@@ -136,6 +136,7 @@ a.defaultLink {
     margin-bottom: 20px;
     font-weight: bold;
     user-select: none;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
 }
 
 .myBaloon::before {
