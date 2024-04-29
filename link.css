@@ -124,11 +124,9 @@ a.defaultLink {
 }
 
 .myBaloon {
-    width: 200px;
     text-align: center;
-    padding: 10px 0;
+    padding: 10px 1.5em;
     color: white;
-    width: 21em;
     background: #4dbf08;
     text-align: center;
     position: relative;
