@@ -16,6 +16,8 @@
 .myButton>a {
     display: block;
     padding: 0.5em 1.4em;
+    color: white !important;
+    text-decoration: none !important;
 }
 .blog_entry_body h2 {
     border-left: 3px solid #fd568c;
@@ -40,7 +42,10 @@
     margin: 30px 0;
 }
 .thumbs>* {
-    width: 32%;
+    width: 25%;
+    margin-bottom: 10px;
+    padding: 5px;
+    box-sizing: border-box;
 }
 img.thumb {
     width: 100%;
