@@ -1,0 +1,82 @@
+/* 追加設定 */
+.block {
+    margin-bottom: 35px;
+}
+.myButtonWrapper {
+    display: flex;
+    justify-content: center;
+}
+.myButton {
+    background: #fd568c;
+    color: white;
+    font-weight: bold;
+    user-select: none;
+    cursor: pointer;
+}
+.myButton>a {
+    display: block;
+    padding: 0.5em 1.4em;
+}
+.blog_entry_body h2 {
+    border-left: 3px solid #fd568c;
+    padding-left: 6px;
+}
+.block a, .block a:visited {
+    color: inherit;
+}
+.imgWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.header_logo_area {
+    width: 100%;
+}
+
+.thumbs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+.thumbs>* {
+    width: 32%;
+}
+img.thumb {
+    width: 100%;
+}
+.affiNotice {
+    margin-bottom: 10px;
+    font-size: 0.9em;
+}
+
+.infoTable {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0 25px 0;
+    align-items: center;
+}
+.infoTable .row {
+    display: flex;
+    width: 95%;
+    justify-content: center;
+    border-bottom: 1px solid pink;
+    padding: 0.5em 0;
+}
+.row .key {
+    font-weight: bold;
+}
+.row .key, .row .value {
+    width: 40%;
+    text-align: center;
+}
+.infoTable .row:last-child {
+    border-bottom: 0;
+}
+
+/* スマホ */
+@media (max-width: 767px) { 
+    .thumbs>* {
+        width: 49%;
+    }
+}
