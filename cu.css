@@ -85,6 +85,9 @@ h2 {
 }
 /* スマホ */
 @media (max-width: 767px) { 
+    .myContent {
+        margin-bottom: 150px;
+    }
     h2 {
         border-bottom: 0px solid #fd568c !important;
         border-left: 3px solid #fd568c;
