@@ -92,6 +92,7 @@ h2 {
 }
 .saleInfo * {
     line-height: normal;
+    text-decoration: none !important;
 }
 .saleInfo h2 {
     width: 100%;
@@ -106,6 +107,9 @@ h2 {
     font-size: 1.2em;
     margin: 5px 0;
     word-break: break-all;
+}
+.sale-title {
+    color: #333;
 }
 
 
