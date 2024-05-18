@@ -7,7 +7,7 @@
     justify-content: center;
 }
 .myButton {
-    background: #fd568c;
+    background-image: linear-gradient(135deg, rgba(253, 86, 140, 1), rgba(255, 132, 176, 1));
     color: white;
     font-weight: bold;
     user-select: none;
