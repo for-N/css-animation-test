@@ -122,4 +122,9 @@ h2 {
     .thumbs>* {
         width: 49%;
     }
+
+    .sale-item {
+        max-width: 50%;
+        padding: 5px;
+    }
 }
