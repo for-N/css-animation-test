@@ -84,7 +84,7 @@ img.thumb {
     border-bottom: 0;
 }
 
-h2 {
+.blog_entry_body h2 {
     border-bottom: 3px solid #fd568c !important;
 }
 
