@@ -69,7 +69,7 @@
 ];
   const iItems = null;
   const items = myInfo.category === "IDOL" ? iItems : aItems;
-  if (items) {
+  if (items && items.length) {
     const h2Title = decode("44K944Kv44Of44OrIOOCu+ODvOODq+S4gOimpw==");
     const saleInfoEl = genEl(`<div class="saleInfo"><h2>${h2Title}</h2></div>`);
     const itemsHtml = items
