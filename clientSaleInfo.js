@@ -67,7 +67,7 @@
     "title": "576O5bCR5aWz44O7576O5aWz44GL44KJ5LyB55S744Oi44OO44CB54af5aWz44O75Lq65aa744Gu5aOy44KM562L44K/44Kk44OI44Or44G+44Gn5Lq65rCX44Gu5YuV55S744GM44GE44Gk44Gn44KC44GK5b6X77yB"
   }
 ];
-  const iItems = null;
+  const iItems = [];
   const items = myInfo.category === "IDOL" ? iItems : aItems;
   if (items && items.length) {
     const h2Title = decode("44K944Kv44Of44OrIOOCu+ODvOODq+S4gOimpw==");
