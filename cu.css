@@ -83,6 +83,32 @@ img.thumb {
 h2 {
     border-bottom: 3px solid #fd568c !important;
 }
+
+/* セール */
+.saleInfo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.saleInfo * {
+    line-height: normal;
+}
+.saleInfo h2 {
+    width: 100%;
+}
+.sale-item {
+    box-sizing: border-box;
+    max-width: 30%;
+    padding: 10px;
+}
+.catchphrase {
+    color: crimson;
+    font-size: 1.2em;
+    margin: 5px 0;
+    word-break: break-all;
+}
+
+
 /* スマホ */
 @media (max-width: 767px) { 
     .myContent {
