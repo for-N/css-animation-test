@@ -53,6 +53,7 @@
 }
 img.thumb {
     width: 100%;
+    padding: 0 0 !important;
 }
 .affiNotice {
     margin-bottom: 10px;
