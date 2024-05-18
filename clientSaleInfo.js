@@ -72,14 +72,16 @@
   if (items) {
     const h2Title = decode("44K944Kv44Of44OrIOOCu+ODvOODq+S4gOimpw==");
     const saleInfoEl = genEl(`<div class="saleInfo"><h2>${h2Title}</h2></div>`);
-    const itemsHtml = items.map(
-      (item) =>
-        `<div class="sale-item">
+    const itemsHtml = items
+      .map(
+        (item) =>
+          `<div class="sale-item">
           <img src="${decode(item.imgSrc)}">
           <div class="catchphrase">${decode(item.catchphrase)}</div>
           <div class="sale-title">${decode(item.title)}</div>
         </div>`
-    );
+      )
+      .join("\n");
     saleInfoEl.append(genEl(itemsHtml));
     document.querySelector(".myContent").append(saleInfoEl);
   }
