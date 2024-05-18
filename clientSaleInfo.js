@@ -82,7 +82,7 @@
         </div>`
       )
       .join("\n");
-    saleInfoEl.append(genEl(itemsHtml));
+    saleInfoEl.append(genEl(`<div>${itemsHtml}</div>`));
     document.querySelector(".myContent").append(saleInfoEl);
   }
 
