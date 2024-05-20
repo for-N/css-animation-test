@@ -92,7 +92,7 @@ img.thumb {
 *:has(>.sale-item) {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: left;
 }
 .saleInfo * {
     line-height: normal;
@@ -103,7 +103,7 @@ img.thumb {
 }
 .sale-item {
     box-sizing: border-box;
-    max-width: 30%;
+    width: 33.33333%;
     padding: 10px;
 }
 .catchphrase {
@@ -132,7 +132,7 @@ img.thumb {
     }
 
     .sale-item {
-        max-width: 50%;
+        width: 50%;
         padding: 5px;
     }
 }
