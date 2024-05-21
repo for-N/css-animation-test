@@ -119,11 +119,6 @@ img.thumb {
     width: 100%;
     aspect-ratio: 1 / 1;
     display: flex;
-    margin-bottom: 10px;
-}
-.saleImgWrapper img {
-    margin: 0;
-    padding: 0;
 }
 
 
