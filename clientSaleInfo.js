@@ -145,7 +145,9 @@
         (item) =>
           `<div class="sale-item">
              <a href="${decode(item.afUrl)}" target="_blank">
-               <img src="${decode(item.imgSrc)}">
+               <div class="saleImgWrapper"><img src="${decode(
+                 item.imgSrc
+               )}"></div>
                <div class="catchphrase">${decode(item.catchphrase)}</div>
                <div class="sale-title">${decode(item.title)}</div>
              </a>
