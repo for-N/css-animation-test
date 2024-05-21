@@ -115,6 +115,16 @@ img.thumb {
 .sale-title {
     color: #333;
 }
+.saleImgWrapper {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    margin-bottom: 10px;
+}
+.saleImgWrapper img {
+    margin: 0;
+    padding: 0;
+}
 
 
 /* スマホ */
